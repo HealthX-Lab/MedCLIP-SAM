@@ -10,3 +10,7 @@ regex
 scikit-image
 ipython
 git+https://github.com/openai/CLIP.git
+open_clip_torch == 2.23.0
+transformers==4.35.2 
+matplotlib
+git+https://github.com/lucasb-eyer/pydensecrf.git
