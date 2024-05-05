@@ -85,7 +85,7 @@ an option to do multi-contour evaluation is implemented:
 python segment-anything/prompt_sam.py --checkpoint <path/to/checkpoint> --model-type vit_b --input <path/to/data/dir> --output <path/to/output/dir> --mask-input <path/to/CRF/masks> --multi-contour
 ```
 ### OPTIONAL: DHN-NCE Fine-tuning for better segmentation
-You can optionally fine-tune the BiomedCLIP pre-trained model using our [DHN-NCE Loss]()
+You can optionally fine-tune the BiomedCLIP pre-trained model using our [DHN-NCE Loss](https://github.com/TahaKoleilat/MedCLIP-SAM/tree/main/loss)
 
 ## Citing MedCLIP-SAM
 
