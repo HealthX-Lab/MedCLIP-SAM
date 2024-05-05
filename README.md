@@ -46,9 +46,9 @@ cd ..
 ```
 download model checkpoints for sam and place them the segment-anything directory
 
-### <a name="Models"></a>Model Checkpoints
+### <a name="Models"></a>SAM Model Checkpoints
 
-Three model versions of the model are available with different backbone sizes. These models can be instantiated by running
+Three model versions of the SAM model are available with different backbone sizes. These models can be instantiated by running
 
 Click the links below to download the checkpoint for the corresponding model type.
 
