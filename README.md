@@ -30,7 +30,7 @@ _**Abstract:** Medical image segmentation of anatomical structures and pathology
 
 ## Colab Demo
 
-Interactive Colab demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/13BRR5eiOE0zIrdc9Fy6uFciJ6l13PVg8?usp=sharing)
+Interactive Colab demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/143KK2JrMH-AKhMZq1fDt_8om-183POAh?usp=sharing)
 
 ## Prerequisites & Installation
 Install annconda following the [anaconda installation documentation](https://docs.anaconda.com/anaconda/install/).
