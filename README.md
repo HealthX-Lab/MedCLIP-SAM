@@ -25,6 +25,7 @@ _**Abstract:** Medical image segmentation of anatomical structures and pathology
 - [Radiology Objects in COntext (ROCO)](https://github.com/razorx89/roco-dataset)
 - [MedPix](https://drive.google.com/file/d/1qY_LLYRM7akV50_wOn-ItNKU5rGpfjya/view?usp=drive_link)
 - [Breast UltraSound Images (BUSI)](https://www.kaggle.com/datasets/aryashah2k/breast-ultrasound-images-dataset)
+- [UDIAT](https://drive.google.com/file/d/1txsA6eNFZciIrbqzwS3uOcnnkiEh3Pt4/view?usp=drive_link)
 - [COVID-QU-Ex](https://www.kaggle.com/datasets/anasmohammedtahir/covidqu)
 - [Brain Tumors](https://www.kaggle.com/datasets/ashkhagan/figshare-brain-tumor-dataset)
 
