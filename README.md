@@ -44,7 +44,7 @@ cd segment-anything
 pip install -e .
 cd ..
 ```
-download model checkpoints for sam and place them the segment-anything directory
+download model checkpoints for SAM and place them in the segment-anything directory
 
 ### <a name="Models"></a>SAM Model Checkpoints
 
@@ -52,9 +52,9 @@ Three model versions of the SAM model are available with different backbone size
 
 Click the links below to download the checkpoint for the corresponding model type.
 
-- **`default` or `vit_h`: [ViT-H SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)**
+- `vit_h`: [ViT-H SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth)
 - `vit_l`: [ViT-L SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_l_0b3195.pth)
-- `vit_b`: [ViT-B SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)
+- **`default` or `vit_b`: [ViT-B SAM model.](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth)**
 
 finally create a directory for your data that you want to work with in the main working directory
 
@@ -86,6 +86,10 @@ python segment-anything/prompt_sam.py --checkpoint <path/to/checkpoint> --model-
 ```
 ### OPTIONAL: DHN-NCE Fine-tuning for better segmentation
 You can optionally fine-tune the BiomedCLIP pre-trained model using our [DHN-NCE Loss](https://github.com/TahaKoleilat/MedCLIP-SAM/tree/main/loss)
+
+## Acknowledgements
+
+Special thanks to [open_clip](https://github.com/mlfoundations/open_clip), [gScoreCAM](https://github.com/anguyen8/gScoreCAM), [pydensecrf](https://github.com/lucasb-eyer/pydensecrf), and [segment-anything](https://github.com/facebookresearch/segment-anything) for making their valuable code publicly available.
 
 ## Citing MedCLIP-SAM
 
