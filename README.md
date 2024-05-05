@@ -34,8 +34,8 @@ _**Abstract:** Medical image segmentation of anatomical structures and pathology
 Interactive Colab demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/143KK2JrMH-AKhMZq1fDt_8om-183POAh?usp=sharing)
 
 ## Prerequisites & Installation
-Install annconda following the [anaconda installation documentation](https://docs.anaconda.com/anaconda/install/).
-Create an enviroment with all required packages with the following command :
+Install anaconda following the [anaconda installation documentation](https://docs.anaconda.com/anaconda/install/).
+Create an environment with all required packages with the following command :
 ```bashscript
 conda env create -f medclipsam_env.yml
 ```
