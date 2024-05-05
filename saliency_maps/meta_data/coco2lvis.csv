@@ -1,0 +1,81 @@
+,coco_class_name,lvis_class_name,coco_class_id,lvis_class_id,coco_class_index
+0,person,person,1,793,0
+1,bicycle,bicycle,2,94,1
+2,car,car_(automobile),3,207,2
+3,motorcycle,motorcycle,4,703,3
+4,airplane,airplane,5,3,4
+5,bus,bus_(vehicle),6,173,5
+6,train,train_(railroad_vehicle),7,1115,6
+7,truck,truck,8,1123,7
+8,boat,boat,9,118,8
+9,traffic light,traffic_light,10,1112,9
+10,fire hydrant,fireplug,11,445,10
+11,stop sign,stop_sign,13,1019,11
+12,parking meter,parking_meter,14,766,12
+13,bench,bench,15,90,13
+14,bird,bird,16,99,14
+15,cat,cat,17,225,15
+16,dog,dog,18,378,16
+17,horse,horse,19,569,17
+18,sheep,sheep,20,943,18
+19,cow,cow,21,80,19
+20,elephant,elephant,22,422,20
+21,bear,bear,23,76,21
+22,zebra,zebra,24,1202,22
+23,giraffe,giraffe,25,496,23
+24,backpack,backpack,27,34,24
+25,umbrella,umbrella,28,1133,25
+26,handbag,handbag,31,35,26
+27,tie,necktie,32,716,27
+28,suitcase,suitcase,33,36,28
+29,frisbee,frisbee,34,474,29
+30,skis,ski,35,964,30
+31,snowboard,snowboard,36,976,31
+32,sports ball,ball,37,41,32
+33,kite,kite,38,611,33
+34,baseball bat,baseball_bat,39,58,34
+35,baseball glove,baseball_glove,40,60,35
+36,skateboard,skateboard,41,962,36
+37,surfboard,surfboard,42,1037,37
+38,tennis racket,tennis_racket,43,1079,38
+39,bottle,bottle,44,133,39
+40,wine glass,wineglass,46,1190,40
+41,cup,cup,47,344,41
+42,fork,fork,48,469,42
+43,knife,knife,49,615,43
+44,spoon,spoon,50,1000,44
+45,bowl,bowl,51,139,45
+46,banana,banana,52,45,46
+47,apple,apple,53,12,47
+48,sandwich,sandwich,54,912,48
+49,orange,orange_(fruit),55,735,49
+50,broccoli,broccoli,56,154,50
+51,carrot,carrot,57,217,51
+52,pizza,pizza,59,816,53
+53,donut,doughnut,60,387,54
+54,cake,cake,61,183,55
+55,chair,chair,62,232,56
+56,couch,sofa,63,982,57
+57,potted plant,pot,64,836,58
+58,bed,bed,65,77,59
+59,dining table,dining_table,67,367,60
+60,toilet,toilet,70,1097,61
+61,laptop,laptop_computer,73,631,63
+62,mouse,mouse_(computer_equipment),74,705,64
+63,remote,remote_control,75,881,65
+64,keyboard,computer_keyboard,76,296,66
+65,cell phone,cellular_telephone,77,230,67
+66,microwave,microwave_oven,78,687,68
+67,oven,oven,79,739,69
+68,toaster,toaster,80,1095,70
+69,sink,sink,81,961,71
+70,refrigerator,refrigerator,82,421,72
+71,book,book,84,127,73
+72,clock,clock,85,271,74
+73,vase,vase,86,1139,75
+74,scissors,scissors,87,923,76
+75,toothbrush,toothbrush,90,1102,79
+76,tv,television_set,72,1077,62
+77,hot dog,sausage,58,916,52
+78,teddy bear,teddy_bear,88,1071,77
+79,hair drier,hair_dryer,89,534,78

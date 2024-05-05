@@ -1,0 +1,3 @@
+conda install -c conda-forge kornia
+conda install -c conda-forge ttach
+pip install git+https://github.com/openai/CLIP.git

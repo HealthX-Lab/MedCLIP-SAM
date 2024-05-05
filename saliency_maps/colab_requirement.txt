@@ -1,0 +1,12 @@
+numpy
+Pillow
+typing-extensions
+ttach
+kornia
+tqdm
+opencv-python
+ftfy
+regex
+scikit-image
+ipython
+git+https://github.com/openai/CLIP.git

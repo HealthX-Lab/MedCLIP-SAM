@@ -1,0 +1,23 @@
+# temperarily file
+/test 
+/__pycache__
+*.png
+*.pyc
+*.jpg
+*.hdf5
+*.pdf
+
+temp.py
+eval_toasterImageNet.py
+/.vscode
+/__pycache__
+
+
+
+# stored data
+/results
+/data
+# /meta_data
+/datasets
+/wsolevaluation
+/plot_stats

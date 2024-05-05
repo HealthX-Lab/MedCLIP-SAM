@@ -1,0 +1,41 @@
+downloads_dir: /home/peijie/dataset/Flickr30K/info-ground/flickr30k_downloads
+anno_dir: /home/peijie/dataset/Flickr30K/info-ground/flickr30k_downloads/Annotations
+sent_dir: /home/peijie/dataset/Flickr30K/info-ground/flickr30k_downloads/Sentences
+exp_dir: /home/peijie/medixray/zoo/info_ground_pretrained_models
+proc_dir: /home/peijie/dataset/Flickr30K/info-ground/flickr30k_proc
+local_proc_dir: /home/peijie/dataset/Flickr30K/flickr30k_proc
+image_dir: /home/peijie/dataset/Flickr30K/flickr30k-images
+det_dir: /home/peijie/dataset/Flickr30K/bottomup_flickr_detections
+
+# Files in proc_dir
+subsets:
+  train: train.txt
+  val: val.txt
+  test: test.txt
+
+phrase_boxes:
+  train: bounding_boxes_train.json
+  val: bounding_boxes_val.json
+  test: bounding_boxes_test.json
+
+sentences:
+  train: sentences_train.json
+  val: sentences_val.json
+  test: sentences_test.json
+
+noun_tokens:
+  train: annotations/noun_tokens_train.json
+  val: annotations/noun_tokens_val.json
+noun_vocab:
+  train: annotations/noun_vocab_train.json
+  val: annotations/noun_vocab_val.json
+noun_adj_tokens:
+  train: annotations/noun_adj_tokens_train.json
+  val: annotations/noun_adj_tokens_val.json
+noun_negatives:
+  samples:
+    train: bert_noun_negatives_train.json
+    val: bert_noun_negatives_val.json
+  feats:
+    train: bert_noun_negatives_train.h5py
+    val: bert_noun_negatives_val.h5py
