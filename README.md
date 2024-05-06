@@ -33,7 +33,7 @@ _**Abstract:** Medical image segmentation of anatomical structures and pathology
 
 Interactive Colab demo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/143KK2JrMH-AKhMZq1fDt_8om-183POAh?usp=sharing)
 
-[](https://github.com/TahaKoleilat/MedCLIP-SAM/blob/main/assets/MedCLIP-SAM_demo.gif)
+![](https://github.com/TahaKoleilat/MedCLIP-SAM/blob/main/assets/MedCLIP-SAM_demo.gif)
 
 ## Prerequisites & Installation
 Install anaconda following the [anaconda installation documentation](https://docs.anaconda.com/anaconda/install/).
