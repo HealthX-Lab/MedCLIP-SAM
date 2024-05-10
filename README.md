@@ -40,6 +40,7 @@ Install anaconda following the [anaconda installation documentation](https://doc
 Create an environment with all required packages with the following command :
 ```bashscript
 conda env create -f medclipsam_env.yml
+conda activate medclipsam
 ```
 then setup the segment-anything library:
 ```bashscript
