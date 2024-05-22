@@ -214,18 +214,13 @@ class CLIPIntereactiveCAM:
         
     def print_cam_info(self, input_image: Image, input_text: str) -> Tuple[str, float]:
         output_dict = {'Input text': input_text}
-        if(args.model_domain == "clip"):
-            clip_logits = self.cam[0].getLogits(input_image, input_text)
-            score = clip_logits[1].detach().cpu().item()
-            output_dict['CLIP Score'] = score
-            temp_text = input_text.replace(' ', '_')
-            pp = pprint.PrettyPrinter(indent=4)
-            pp.pprint(output_dict)
-            return temp_text, score
-        elif(args.model_domain == "biomedclip"):
-            temp_text = input_text.replace(' ', '_')
-            pp = pprint.PrettyPrinter(indent=4)
-            return temp_text, 0.0
+        clip_logits = self.cam[0].getLogits(input_image, input_text)
+        score = clip_logits[1].detach().cpu().item()
+        output_dict['CLIP Score'] = score
+        temp_text = input_text.replace(' ', '_')
+        pp = pprint.PrettyPrinter(indent=4)
+        pp.pprint(output_dict)
+        return temp_text, score
 
     # get gt boxes from hdf5 file
     def get_gt_boxes(self, input_text: str, image_id: int):
