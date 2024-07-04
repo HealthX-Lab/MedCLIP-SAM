@@ -72,6 +72,7 @@ you can also input a different text prompt for each image one by one:
 python saliency_maps/visualize_cam.py --cam-version gscorecam --image-folder <path/to/data/dir> --model-domain biomedclip --save-folder <path/to/save/dir> --one-by-one
 ```
 ### Step 2: Post-process using CRF
+You should use the output directory of the generated saliency maps in Step 1 as the input directory:
 ```bashscript
 python crf/densecrf_sal.py --input-path <path/to/data/dir> --sal-path <path/to/saliency/maps> --output-path <path/to/output/dir>
 ```
@@ -80,7 +81,7 @@ you can also change the CRF settings:
 python crf/densecrf_sal.py --input-path <path/to/data/dir> --sal-path <path/to/saliency/maps> --output-path <path/to/output/dir> --gaussian-sxy <gsxy> --bilateral-sxy <bsxy> --bilateral-srgb <bsrgb> --epsilon <epsilon> --m <m> --tau <tau>
 ```
 ### Step 3: Prompt SAM using CRF Pseudo-masks
-In our experiments, we used the ViT-B checkpoint: 
+You should use the output directory of the produced CRF labels in Step 2 as the input directory. In our experiments, we used the ViT-B checkpoint: 
 ```bashscript
 python segment-anything/prompt_sam.py --checkpoint <path/to/checkpoint> --model-type vit_b --input <path/to/data/dir> --output <path/to/output/dir> --mask-input <path/to/CRF/masks>
 ```
