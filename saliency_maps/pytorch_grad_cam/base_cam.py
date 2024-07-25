@@ -183,6 +183,8 @@ class BaseCAM:
         if(self.model_domain == "biomedclip"):
             for a in range(len(self.activations_and_grads.activations)):
                 self.activations_and_grads.activations[a] = self.activations_and_grads.activations[a].permute(1,0,2) 
+            for a in range(len(self.activations_and_grads.gradients)):
+                self.activations_and_grads.gradients[a] = self.activations_and_grads.gradients[a].permute(1,0,2)
         activations_list = [self.reshape_transform(a).numpy() if self.reshape_transform is not None else a.numpy()
                             for a in self.activations_and_grads.activations]
         self.activations = activations_list
