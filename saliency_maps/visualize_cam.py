@@ -212,7 +212,7 @@ class CLIPIntereactiveCAM:
         cat_image.save(f'{self.save_folder}/{image_id}')
         return cat_image
         
-    def print_cam_info(self, input_image: Image, input_text: str) -> Tuple[str, float]:
+    def print_cam_info(self, input_image: Image, input_text: str):
         output_dict = {'Input text': input_text}
         clip_logits = self.cam[0].getLogits(input_image, input_text)
         score = clip_logits[1].detach().cpu().item()
@@ -283,7 +283,7 @@ def get_parser():
     parser.add_argument('--image-src', type=str,
                         default='custom',
                         help="The dataset name of images")
-    parser.add_argument('--image-folder', type=str, default='/home/pzc0018@auburn.edu/dataset/COCO2017/val2017',
+    parser.add_argument('--image-folder', type=str, default='data',
                         help="The root folder for images")
     parser.add_argument('--shuffle', action='store_false',
                         help="Whether to shuffle the data")
