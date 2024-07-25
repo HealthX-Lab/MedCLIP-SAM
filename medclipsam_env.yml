@@ -244,6 +244,5 @@ dependencies:
     - open_clip_torch == 2.23.0
     - opencv-python
     - git+https://github.com/lucasb-eyer/pydensecrf.git
-    - numpy
 prefix: ~/anaconda3/envs/gscorecam
 
