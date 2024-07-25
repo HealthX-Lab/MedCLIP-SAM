@@ -241,8 +241,9 @@ dependencies:
     - ttach==0.0.3
     - transformers==4.35.2 
     - matplotlib
-    - open_clip_torch == 2.23.0
+    - open_clip_torch==2.23.0
     - opencv-python
     - git+https://github.com/lucasb-eyer/pydensecrf.git
+    - numpy==1.26.4
 prefix: ~/anaconda3/envs/gscorecam
 
