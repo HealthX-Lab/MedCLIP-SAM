@@ -81,7 +81,6 @@ class CLIPIntereactiveCAM:
         self.dataset_classes, self.name2id, self.id2name= get_dataset_class_name(self.image_src)
         print("Loading dataset...")
         self._load_dataset(split, shuffle)
-        os.makedirs('cam_temp', exist_ok=True)
         
         if self.use_channel_dict:
             print("Loading channel dictionary...")
