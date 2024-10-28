@@ -103,9 +103,11 @@ Special thanks to [open_clip](https://github.com/mlfoundations/open_clip), [gSco
 
 If you use MedCLIP-SAM, please consider citing:
 
-    @article{koleilat2024medclip,
-    title={MedCLIP-SAM: Bridging Text and Image Towards Universal Medical Image Segmentation},
-    author={Koleilat, Taha and Asgariandehkordi, Hojat and Rivaz, Hassan and Xiao, Yiming},
-    journal={arXiv preprint arXiv:2403.20253},
-    year={2024}
+    @inproceedings{koleilat2024medclip,
+     title={MedCLIP-SAM: Bridging text and image towards universal medical image segmentation},
+     author={Koleilat, Taha and Asgariandehkordi, Hojat and Rivaz, Hassan and Xiao, Yiming},
+     booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+     pages={643--653},
+     year={2024},
+     organization={Springer}
     }
